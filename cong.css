@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* background: url("./all.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden; */
+}
+
+#one_image{
+    margin: 0 auto;
+    background-size: cover; 
+}
