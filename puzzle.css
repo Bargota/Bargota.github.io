@@ -5,8 +5,8 @@ body {
 }
 
 #board {
-    width: 405px;
-    height: 404px;
+    width: 410px;
+    height: 410px;
     border: 2px solid purple;
     margin: 0 auto;
     display: flex;
@@ -20,7 +20,7 @@ body {
 }
 
 #pieces {
-    width: 1060px;
+    width: 1070px;
     height: 161px;
     border: 2px solid purple;
 
