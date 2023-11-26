@@ -121,12 +121,12 @@ function dragEnd() {
     
     if (currTile.parentElement.id==="board")
     {   
-        let curr_pos = currTile.name;
-        let other_pos = otherTile.name;
-        currTile.name = other_pos;
-        otherTile.name = curr_pos;
-        tile_arr[currTile.name-1]=curr_file_name;
-        tile_arr[otherTile.name-1]=oth_file_name;
+        // let curr_pos = currTile.name;
+        // let other_pos = otherTile.name;
+        // currTile.name = other_pos;
+        // otherTile.name = curr_pos;
+        tile_arr[otherTile.name-1]=curr_file_name;
+        tile_arr[currTile.name-1]=oth_file_name;
         
     } else
     {
@@ -138,7 +138,8 @@ function dragEnd() {
    
     
     if (tile_arr.toString()===base_arr.toString()){
-        window.location.href = 'congratilation.html';
+        document.getElementById("button").style.visibility='visible';
+        // window.location.href = 'congratilation.html';
     }
     // tile_arr=[];
     // for (let i = 1; i <= 25; i++) {
